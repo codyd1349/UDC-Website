@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 1080px;
+  height: 100%auto;
+}
+
+body {
+background-color: #fff;
+width: 100%;
+height: 100% auto;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+position: relative;
+top: 0;
+bottom: 0;
+height: 100vh;
+z-index: -10;
+}
+
+
+/*Menu Nav*/
+
+.header {
+  width: 100%;
+  height: 55px;
+
+}
+
+.header nav {
+  width: 100%;
+  margin-left: 95px;
+}
+
+.header nav ul {
+padding-top: 15px;
+}
+
+.header nav ul li {
+  list-style: none;
+  float: left;
+  font-size: 24px;
+  position: relative;
+}
+
+.header nav ul li a {
+  font-size: 22px;
+  padding: 5px 20px;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 5px;
+
+}
+
+.header nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;;
+  padding: 3px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.header nav ul li:hover ul {
+  display: block;
+}
+
+
+.header ul li ul li a {
+  padding: 15px;
+}
+
+.header ul li ul li a:hover {
+  color: #000;
+}
+
+.header nav ul li a:hover {
+
+  text-decoration: underline;
+}
+
+
+.icons2 {
+margin-top: -10px;
+}
+/*Main Image*/
+
+.mainimage {
+  width: 100% auto;
+  height: 100% auto;
+}
+
+.imagecontent {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.serviceicons {
+  padding-top: 275px;
+  padding-bottom: 25px;
+}
+
+#ddicon {
+  opacity: .75;
+  float: right;
+}
+
+#wdicon {
+  opacity: .75;
+  float: right;
+}
+
+#embicon {
+  opacity: .75;
+}
+
+#spicon {
+  opacity: .75;
+}
+
+#wdicon:hover {
+  opacity: 1;
+}
+
+#embicon:hover {
+  opacity: 1;
+}
+
+#spicon:hover {
+  opacity: 1;
+}
+
+#ddicon:hover {
+  opacity: 1;
+}
+
+
+
+
+
+/*Contact*/
+
+
+.contactinfo {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  background-color: #ccc;
+}
+
+.contactheader {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Poiret One', cursive;
+  padding-top: 20px;
+}
+
+.call {
+  margin-left: 15px;
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  float: left;
+}
+
+.email {
+  margin-left: 15px;
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
